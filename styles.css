@@ -37,7 +37,7 @@ nav ul ul {
 }
 nav ul ul li {
 	display: block;
-	display: 100%;
+	width: 100%;
 }
 /* display drop downs on hover */
 nav ul li:hover > ul {
@@ -69,6 +69,12 @@ nav a:hover {
 		text-align: center;
 		border-bottom: 1px solid white;
 		width: 100%;
+	}
+	nav ul li:hover > ul {
+		display: inherit;
+		background-color: #BB898A;
+		width: 100%;
+		position: static;
 	}
 	
 /* end of media query */
