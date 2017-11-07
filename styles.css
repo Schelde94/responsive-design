@@ -30,6 +30,20 @@ nav ul {
 nav ul li {
 	display: inline-block;
 }
+/* drop down menu styels */
+nav ul ul {
+	display: none;
+	position: absolute;
+}
+nav ul ul li {
+	display: block;
+	display: 100%;
+}
+/* display drop downs on hover */
+nav ul li:hover > ul {
+	display: inherit;
+	background-color: #AA898A;
+}
 nav a {
 	display: block;
 	color: white;
