@@ -54,9 +54,17 @@ nav a {
 nav a:hover {
 	background-color: #212121;
 }
+.myStyle {
+	display: block;
+}
+button {
+	display: none;
+}
 /* Responsive Styles*/
 @media all and (max-width : 768px) {
-	
+	nav {
+		display: none;
+	}
 	h1 {
 	font-size: large;
 	margin-top: 0px;
@@ -76,6 +84,9 @@ nav a:hover {
 		width: 100%;
 		position: static;
 	}
+	button {
+	display: block;
+}
 	
 /* end of media query */
 }
